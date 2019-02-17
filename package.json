@@ -1,5 +1,5 @@
 {
-  "name": "platform-x-components",
+  "name": "@xenterprises/platform-x-components",
   "version": "0.0.1",
   "description": "Vue components for platform X",
   "main": "src/index.js",
