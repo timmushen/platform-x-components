@@ -31,7 +31,7 @@
 
 <script>
 import { ValidationProvider } from "vee-validate";
-import ResizableTextarea from "@/components/Forms/ResizableTextarea.vue";
+import ResizableTextarea from "./Forms/ResizableTextarea.vue";
 export default {
   components: {
     ValidationProvider,

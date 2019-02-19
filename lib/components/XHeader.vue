@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import XButton from "@/components/XButton.vue";
-import XHeaderButton from "@/components/XHeaderButton.vue";
-import XNotificationCircle from "@/components/XNotificationCircle.vue";
+import XButton from "./XButton.vue";
+import XHeaderButton from "./XHeaderButton.vue";
+import XNotificationCircle from "./XNotificationCircle.vue";
 export default {
   props: ["title"],
   components: {

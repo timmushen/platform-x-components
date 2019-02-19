@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import XHr from "@/components/XHr.vue";
-import XIconWidget from "@/components/XIconWidget.vue";
+import XHr from "./XHr.vue";
+import XIconWidget from "./XIconWidget.vue";
 export default {
   components: {
     XHr,

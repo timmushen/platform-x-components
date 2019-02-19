@@ -23,10 +23,9 @@
 </template>
 
 <script>
-import XNavBrand from "@/components/XNavBrand.vue";
-import XNavItem from "@/components/XNavItem.vue";
-
-import XAvatar from "@/components/XAvatar.vue";
+import XNavBrand from "./XNavBrand.vue";
+import XNavItem from "./XNavItem.vue";
+import XAvatar from "./XAvatar.vue";
 export default {
   components: { XNavBrand, XNavItem, XAvatar }
 };

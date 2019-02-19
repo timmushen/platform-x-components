@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import XInput from "@/components/Forms/XInput.vue";
+import XInput from "Forms/XInput.vue";
 export default {
   components: { XInput },
   data() {

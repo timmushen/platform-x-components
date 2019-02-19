@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import XTimelineItem from "@/components/XTimelineItem.vue";
+import XTimelineItem from "./XTimelineItem.vue";
 export default {
   components: { XTimelineItem }
 };

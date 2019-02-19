@@ -1,7 +1,7 @@
 <template>
   <div class="p-3 h-12 mb-4">
     <nuxt-link to="/" class>
-      <img src="@/assets/images/logo.png" alt>
+      <img src="{{src}}" alt>
     </nuxt-link>
   </div>
 </template>
