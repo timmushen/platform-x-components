@@ -4,7 +4,7 @@
       <div class="p-6 border-l border-r border-grey-light bg-white">
         <div class="font-bold text-center text-lg">Welcome Back!</div>
         <div class="mt-2 pt-4 pr-4 pl-4 pb-2">
-         <x-input
+        <x-input
   name="user_name"
   label="Enter your user name"
   required="required|email"
@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import XInput from "Forms/XInput.vue";
+import XInput from "./XInput.vue";
 export default {
   components: { XInput },
   data() {
