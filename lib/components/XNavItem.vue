@@ -1,7 +1,7 @@
 <template>
-  <div class="hover:bg-grey-lightest">
+  <div class="hover:bg-gray-400est">
     <nuxt-link :to="link" class="p-6 block">
-      <fa :icon="['fal', icon]" class="text-grey-dark hover:text-black"/>
+      <fa :icon="['fal', icon]" class="text-gray-600 hover:text-gray-900"/>
     </nuxt-link>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <span>
-    <button class="bg-blue hover:bg-blue-dark hover:shadow-md text-white py-2 px-4 rounded">
+    <button class="bg-blue hover:bg-blue--600 hover:shadow-md text-white py-2 px-4 rounded">
       <fa :icon="['fal', icon]" class="mr-1 -ml-1"/>
       <slot></slot>
     </button>

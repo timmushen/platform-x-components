@@ -1,6 +1,6 @@
 <template>
   <div class="mt-8 max-w-md">
-    <label class="block uppercase tracking-wide text-grey-darker text-xs mb-2" :for="name">
+    <label class="block uppercase tracking-wider text-gray-700 text-xs mb-2" :for="name">
       {{label}}
       <sup class="text-red" v-show="required != ''">*</sup>
     </label>

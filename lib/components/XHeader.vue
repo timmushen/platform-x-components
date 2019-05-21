@@ -1,13 +1,13 @@
 <template>
   <header
-    class="bg-white flex border-b border-grey-light text-grey justify-between sticky pin-t ml-16"
+    class="bg-white flex border-b border-gray-400 text-grey justify-between sticky top-0 ml-16"
   >
-    <div class="font-black text-black p-4">{{title}}</div>
+    <div class="font-gray-900 text-gray-900 p-4">{{title}}</div>
 
     <div class="flex flex-row">
       <div class="p-4 relative">
         <nuxt-link to="/" class="block">
-          <fa :icon="['fal','bell']" class="text-grey-dark hover:text-black"></fa>
+          <fa :icon="['fal','bell']" class="text-gray-600 hover:text-gray-900"></fa>
         </nuxt-link>
         <x-notification-circle>2</x-notification-circle>
       </div>

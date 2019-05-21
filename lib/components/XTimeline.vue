@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="m-4">
-      <div class="border-l-2 border-grey-light">
+      <div class="border-l-2 border-gray-400">
         <x-timeline-item/>
-        <div class="pt-6 border-l-2 border-red-light -ml-px bg-grey-lightest">
-          <div class="rounded-full bg-red-dark w-2 h-2 flex" style="margin-left: -5px;"></div>
+        <div class="pt-6 border-l-2 border-red--400 -ml-px bg-gray-400est">
+          <div class="rounded-full bg-red--600 w-2 h-2 flex" style="margin-left: -5px;"></div>
           <div class="pl-4 flex flex-col -mt-5 pb-8 pt-2">
-            <div class="font-bold mb-2 text-red-dark flex-1">Title</div>
+            <div class="font-bold mb-2 text-red--600 flex-1">Title</div>
             <div class="text-grey text-sm max-w-md flex-1">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

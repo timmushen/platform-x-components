@@ -5,8 +5,8 @@
       src="https://pbs.twimg.com/profile_images/885868801232961537/b1F6H4KC_400x400.jpg"
     >
     <div class="text-sm">
-      <p class="text-black leading-none">Jonathan Reinink</p>
-      <p class="text-grey-dark">Aug 18</p>
+      <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+      <p class="text-gray-600">Aug 18</p>
     </div>
   </div>
 </template>

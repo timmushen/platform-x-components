@@ -3,7 +3,7 @@
     <div class="p-2">
       <nuxt-link
         to="/"
-        class="block border rounded border-grey-light text-grey-darker py-2 px-4 text-xs hover:shadow no-underline hover:text-black hover:border-grey"
+        class="block border rounded border-gray-400 text-gray-700 py-2 px-4 text-xs hover:shadow no-underline hover:text-gray-900 hover:border-grey"
       >Log out</nuxt-link>
     </div>
   </div>

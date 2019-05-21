@@ -1,6 +1,6 @@
 <template>
-  <div class="leading-normal text-grey-darker text-sm max-w-md">
-    <h3 :v-show="title" class="text-grey-darkest pb-1">{{title}}</h3>
+  <div class="leading-normal text-gray-700 text-sm max-w-md">
+    <h3 :v-show="title" class="text-gray-800 pb-1">{{title}}</h3>
     <slot></slot>
   </div>
 </template>

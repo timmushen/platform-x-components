@@ -8,8 +8,8 @@
         <fa :icon="['fal', 'exclamation-triangle']" class="text-red round-full fa-2x"/>
       </div>
       <div class="flex-1 ml-6">
-        <div class="text-red-dark text-lg font-bold pb-2 pt-2">{{title}}</div>
-        <div class="text-grey-darker leading-normal">
+        <div class="text-red--600 text-lg font-bold pb-2 pt-2">{{title}}</div>
+        <div class="text-gray-700 leading-normal">
           <slot></slot>
         </div>
       </div>
@@ -22,8 +22,8 @@
         <fa :icon="['fal', 'check']" class="text-green round-full fa-2x"/>
       </div>
       <div class="flex-1 ml-6">
-        <div class="text-green-dark text-lg font-bold pb-2 pt-2">{{title}}</div>
-        <div class="text-grey-darker leading-normal">
+        <div class="text-green--600 text-lg font-bold pb-2 pt-2">{{title}}</div>
+        <div class="text-gray-700 leading-normal">
           <slot></slot>
         </div>
       </div>
